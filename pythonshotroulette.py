@@ -327,8 +327,8 @@ while urLives > 0 and hisLives > 0:
         print("Wake up.")
         slp(2)
         cls()
-        print(imgNormal)
         if fTimeDie and not angered:
+          print(imgNormal)
           slp(2)
           print("Hurts doesn't it?")
           bp()
@@ -340,8 +340,8 @@ while urLives > 0 and hisLives > 0:
           bp()
           slp(4)
           cls()
-          print(imgNormal)
           fTimeDie = False
+        print(imgMachine)
         print(f"You have {urLives} Lives left.")
         if not angered:
           bp()
@@ -397,12 +397,12 @@ while urLives > 0 and hisLives > 0:
           slp(3)
           cls()
           angered = True
-          print(imgNormal)
+          print(imgMachine)
         else:
           print(imgEmpty)
           slp(3)
           cls()
-          print(imgNormal)
+          print(imgMachine)
         print(f"He has {hisLives} Lives now.")
         slp(5)
         urTurn = False
@@ -445,8 +445,8 @@ while urLives > 0 and hisLives > 0:
         print("Wake up.")
         slp(2)
         cls()
-        print(imgNormal)
         if fTimeDie and not angered:
+          print(imgNormal)
           slp(2)
           print("Hurts doesn't it?")
           bp()
@@ -458,8 +458,8 @@ while urLives > 0 and hisLives > 0:
           bp()
           slp(4)
           cls()
-          print(imgNormal)
           fTimeDie = False
+        print(imgMachine)
         print(f"You have {urLives} Lives left.")
         if not angered:
           bp()
@@ -515,12 +515,12 @@ while urLives > 0 and hisLives > 0:
           slp(3)
           cls()
           angered = True
-          print(imgNormal)
+          print(imgMachine)
         else:
           print(imgEmpty)
           slp(3)
           cls()
-          print(imgNormal)
+          print(imgMachine)
         print(f"He has {hisLives} Lives now.")
         slp(5)
         urTurn = True
