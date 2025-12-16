@@ -2,7 +2,7 @@ from time import sleep as slp
 import os
 from winsound import Beep
 import random
-from buckshotpictures import *
+from pythonshotpictures import *
 def bp():
   Beep(100, 350)
 def shot():
